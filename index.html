@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cashier App</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+
+    <h2 id="title">Cashier Queue Management</h2>
+
+
+    <div id="cashpayment">Cash Payment
+        <!-- <div id="cash">cash</div> -->
+    </div>
+
+    <div id="lipanampesa">Lipa na Mpesa
+        <!-- <div id="mpesa">mpesa</div> -->
+    </div>
+
+    <!-- a form to select method of payment -->
+    <form action="submit" id="form">
+        <label for="paymentMethod">Choose Payment Method</label>
+        <select name="paymentMethod" id="paymentMethod">
+            <option value="cash">cash</option>
+            <option value="mpesa">mpesa</option>
+        </select>
+        <!-- <option value="cash">cash</option>
+        <option value="mpesa">mpesa</option> -->
+    </form>
+
+    <!-- to show a customer which queue to go to after selecting the method of payment -->
+    <div id="queueInfo">Queue Info</div>
+    <script src="index.js"></script>
 </body>
 </html>
