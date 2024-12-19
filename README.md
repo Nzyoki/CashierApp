@@ -10,3 +10,7 @@ To generate auth key in postman, go to Daraja API documentation, select the auth
 
 To test the API, go to to postman, URL, POST the URL, go to AUTH, input Bearaer Auth and Token, in headers key:Content-Type and value use application/json
 Body:input the request body
+
+Github Repo:https://github.com/Nzyoki/CashierApp
+
+The .env file contains the consumer key and consumer secret which are used to generate auth token in Postman
